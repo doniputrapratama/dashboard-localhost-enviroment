@@ -1,0 +1,17 @@
+{
+  "name": "localhost-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx @tailwindcss/cli -i ./src/css/app.css -o ./src/css/build.css --watch"
+  },
+  "keywords": [],
+  "author": "Doni Putra Pratama, S.T",
+  "license": "ISC",
+  "description": "localhost server for developer.",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.4",
+    "tailwindcss": "^4.1.4"
+  }
+}
